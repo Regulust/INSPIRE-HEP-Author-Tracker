@@ -1,0 +1,6 @@
+# One author per line:
+# Author Name, https://inspirehep.net/authors/<recid>
+
+Nima Arkani-Hamed, https://inspirehep.net/authors/1018121
+Edward Witten, https://inspirehep.net/authors/983328
+Yang Ma, https://inspirehep.net/authors/1514492
