@@ -11,6 +11,8 @@ Version: `v0.1`
 - Upload `authors.txt` or paste author lines directly
 - Support two query modes: recent days with default `30`, or a custom date range
 - Query INSPIRE-HEP from the browser
+- Use the official [INSPIRE-HEP API](https://github.com/inspirehep/rest-api-doc) for querying
+- Follow the INSPIRE-HEP API query-rate restrictions in the frontend workflow
 - Render a report preview in HTML
 - Download the generated report as an HTML file
 - Display per-author paper sections and deduplicated unique-paper counts
@@ -65,6 +67,10 @@ Recommended setup:
 - The frontend retries on `HTTP 429`.
 - The frontend stops after 3 failed attempts for one author.
 - If one author query fails 3 times in a row, the remaining queued requests are stopped, while completed results remain visible in the page report.
+
+## License
+
+This project is released under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
 ## Configuration
 

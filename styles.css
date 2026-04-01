@@ -42,7 +42,22 @@ body {
 }
 
 .page-footer p {
-  margin: 0;
+  margin: 0 0 6px;
+}
+
+.page-footer a {
+  color: var(--accent-strong);
+  text-decoration-color: rgba(124, 45, 18, 0.35);
+}
+
+.page-footer a:visited {
+  color: #6b5a2b;
+  text-decoration-color: rgba(107, 90, 43, 0.35);
+}
+
+.page-footer a:hover,
+.page-footer a:focus-visible {
+  color: var(--accent);
 }
 
 .hero {
@@ -290,26 +305,79 @@ pre {
 }
 
 .report h2 {
-  margin-top: 28px;
-  padding: 10px 12px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  padding: 7px 10px;
   border-left: 5px solid var(--accent);
   background: var(--accent-soft);
   border-radius: 10px;
+  font-size: 1.2rem;
 }
 
 .report h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin: 0 0 8px;
+  font-size: 1rem;
+  line-height: 1.35;
 }
 
-.report ul {
-  padding-left: 20px;
+.author-paper-count {
+  font-size: 0.92rem;
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.author-heading-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.author-heading-link:hover,
+.author-heading-link:focus-visible {
+  color: var(--accent-strong);
+  text-decoration: underline;
+}
+
+.paper {
+  padding: 10px 12px;
+  margin: 0 0 10px;
+  border: 1px solid rgba(91, 67, 36, 0.1);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.paper-meta {
+  padding-left: 18px;
+  margin: 0;
+  font-size: 0.96rem;
+}
+
+.paper-meta li + li {
+  margin-top: 4px;
 }
 
 .report hr {
   border: 0;
   border-top: 1px solid rgba(91, 67, 36, 0.16);
-  margin: 28px 0;
+  margin: 18px 0;
+}
+
+.compact-section {
+  margin-top: 16px;
+}
+
+.compact-author-list {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 0.95rem;
+}
+
+.compact-author-list li + li {
+  margin-top: 6px;
+}
+
+.compact-author-note {
+  color: var(--muted);
+  margin-left: 6px;
 }
 
 .report a {
